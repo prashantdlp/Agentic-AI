@@ -1,9 +1,3 @@
-# Dev Environment Manager
-
-A lightweight developer environment management tool that automates common setup tasks required before starting a software project. The goal of this project is to simplify environment initialization by handling package management, dependency installation, file operations, and system validation.
-
----
-
 ## Features
 
 * ✅ Successfully creates and manages a Python virtual environment.
@@ -15,6 +9,17 @@ A lightweight developer environment management tool that automates common setup 
 
 ---
 
-## License
-
-This project is intended for educational and learning purposes.
+> [!WARNING]
+> **Security Notice**
+>
+> This project was built as a learning project and has undergone extensive testing. However, **it should not be considered 100% secure**. AI-assisted development tools can occasionally generate or execute unintended commands if given excessive permissions.
+>
+> If you plan to experiment with or modify this project, it is recommended to:
+>
+> * Run it inside an isolated **WSL virtual environment** or another sandboxed environment.
+> * Restrict AI agents from executing destructive commands such as `rm` without explicit approval.
+> * Mount `/mnt/c` as **read-only** whenever possible to protect your Windows files.
+> * Avoid granting unnecessary `sudo` privileges to automated tools or AI agents.
+> * Review generated commands before executing them.
+>
+> These precautions help minimize the risk of accidental file deletion or unintended system modifications during development.
